@@ -94,7 +94,7 @@ for project in liste_projects:
                 #Get disk type
                 disk_type_str = disks['type'].split("/")
                 disk_type = disk_type_str[-1]
-                print(disk_type)
+                #print(disk_type)
                 #Calculate cost of unattached disks
                 if disk_type == 'pd-standard':
                     prize = delta_months * 0.04 * int(sizeGb)
