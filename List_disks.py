@@ -50,8 +50,6 @@ def list_projects():
   
 # List of Zone resources available to the specified project
 def list_zones(project):
-    r = service.zones().list(project=project)
-    print(r.text)
     #print(r.status_code)
     result = service.zones().list(project=project).execute()
     if 'items' in result:
