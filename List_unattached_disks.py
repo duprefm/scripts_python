@@ -28,7 +28,7 @@ service = discovery.build('compute', 'beta', credentials=credentials)
 serviceprojects = discovery.build('cloudresourcemanager', 'v1', credentials=credentials)
 
 # Project ID for this request.
-project = 'p-gcp-cloudcostanalysis'  # TODO: Update placeholder value.
+#project = 'p-gcp-cloudcostanalysis'  # TODO: Update placeholder value.
 
 global liste_projects
 liste_projects = []
