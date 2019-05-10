@@ -68,7 +68,7 @@ liste_projects = ['p-gcp-cloudcostanalysis', 'padawan-p2']
 #Main
 list_projects()
 
-liste_projects = ['p-gcp-cloudcostanalysis', 'padawan-p2']
+#liste_projects = ['p-gcp-cloudcostanalysis', 'padawan-p2']
 #liste_projects = ['p-vrd-lai-farmstar-crop-monit']
 for project in liste_projects:
     #print(project)
